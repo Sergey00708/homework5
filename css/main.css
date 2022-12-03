@@ -1,0 +1,40 @@
+#id{
+    color: red;
+}
+
+span{
+    color: green;
+}
+
+.text-color{
+    color: rebeccapurple;
+}
+
+div + div{
+    color: royalblue;
+}
+
+.color{
+    color: brown;
+}
+
+.text{
+    text-transform: uppercase;
+}
+
+ul :nth-child(2){
+    color: chartreuse;
+}
+
+div p .wrapper{
+    color: red;
+}
+
+.cascade{
+    color: hotpink;
+    text-transform: uppercase;
+}
+
+hr{
+    border: 1px dashed darkred;
+}
