@@ -1,40 +1,39 @@
-#id{
-    color: red;
+h4{
+    color: hotpink;
 }
 
-span{
-    color: green;
+#uniq{
+    color: chartreuse;
 }
 
-.text-color{
-    color: rebeccapurple;
-}
-
-div + div{
-    color: royalblue;
-}
-
-.color{
-    color: brown;
+.list-2{
+    color: darkorange;
 }
 
 .text{
     text-transform: uppercase;
 }
 
-ul :nth-child(2){
-    color: chartreuse;
+.group .list-4{
+    color: deeppink;
 }
 
-div p .wrapper{
-    color: red;
+ul :nth-child(5){
+    color: deepskyblue;
 }
 
-.cascade{
-    color: hotpink;
-    text-transform: uppercase;
+[color="green"]{
+    color: green;
 }
 
-hr{
-    border: 1px dashed darkred;
+body > p{
+    color: brown;
+}
+
+a:link{
+    color: midnightblue;
+}
+
+a ~ p{
+    color: blueviolet;
 }
